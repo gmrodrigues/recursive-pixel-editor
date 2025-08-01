@@ -2,6 +2,11 @@
 
 A recursive pixel art editor written in C++ with SDL2, compilable to WebAssembly using Emscripten.
 
+## Demo
+
+https://gmrodrigues.github.io/rpixed/
+
+
 ## Screenshots
 
 ![Screenshot](./screenshots/2025-08-01_19-02.png)  
