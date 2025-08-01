@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/pixelrecursor.dir/src/main.cpp.o CMakeFiles/pixelrecursor.dir/src/PixelEditor.cpp.o CMakeFiles/pixelrecursor.dir/src/Palette.cpp.o CMakeFiles/pixelrecursor.dir/src/RecursiveRenderer.cpp.o -o pixelrecursor  /usr/lib/x86_64-linux-gnu/libSDL2.so 

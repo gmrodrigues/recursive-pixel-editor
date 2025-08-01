@@ -1,0 +1,3 @@
+/home/glauber/arquivos/projetos/gamedev/recursive-pixel-editor/build_native/CMakeFiles/pixelrecursor.dir
+/home/glauber/arquivos/projetos/gamedev/recursive-pixel-editor/build_native/CMakeFiles/edit_cache.dir
+/home/glauber/arquivos/projetos/gamedev/recursive-pixel-editor/build_native/CMakeFiles/rebuild_cache.dir

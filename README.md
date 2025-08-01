@@ -4,10 +4,10 @@ A recursive pixel art editor written in C++ with SDL2, compilable to WebAssembly
 
 ## Screenshots
 
-![Screenshot](screenshots/2025-08-01_19-02.png)  
-![Screenshot](screenshots/2025-08-01_19-04.png)  
-![Screenshot](screenshots/2025-08-01_19-06.png)
-![Screenshot](screenshots/2025-08-01_19-10.png)
+![Screenshot](./screenshots/2025-08-01_19-02.png)  
+![Screenshot](./screenshots/2025-08-01_19-04.png)  
+![Screenshot](./screenshots/2025-08-01_19-06.png)
+![Screenshot](./screenshots/2025-08-01_19-10.png)
 
 
 ## Features
