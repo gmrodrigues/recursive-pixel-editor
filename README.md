@@ -1,6 +1,6 @@
 # PixelRecursor
 
-A recursive pixel art editor written in C++ with SDL2, compilable to WebAssembly using Emscripten.
+A recursive pixel art editor written in C++ with SDL2, compilable to WebAssembly using Emscripten as an educational example of a graphic application using c++ & SDL2 with webassembly which can be run in the browser or as a native application.
 
 ## Demo
 
