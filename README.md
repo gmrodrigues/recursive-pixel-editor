@@ -4,6 +4,8 @@ A recursive pixel art editor written in C++ with SDL2, compilable to WebAssembly
 
 This is an educational example of a compiled C++ graphic application which runs in the browser (WebAssembly) or as a tradicional binary executable.
 
+This project demostrates something that can be easily done with SDL2 and C++ and would take a lot of work to do it with other languages such as Js (HTML5 Canvas or WebGL or even with SDL2 and Js).
+
 ## Demo
 
 https://gmrodrigues.github.io/rpixed/
