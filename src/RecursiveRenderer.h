@@ -1,5 +1,6 @@
 #pragma once
 #include <SDL2/SDL.h>
+#include <cmath>
 #include "PixelEditor.h"
 #include "Palette.h"
 
@@ -20,6 +21,10 @@ private:
     int baseSize;
     int outputSize;
     int scaleFactor;
+    Uint32 startTime;  // Time when renderer was created
+    
+    // Calculate current pulsating scale factor based on time
+    float getPulsatingScaleFactor() const;
     
     void renderPixelRecursive(SDL_Renderer* renderer, const PixelEditor& editor, 
                              const Palette& palette, int x, int y, int size, SDL_Color sourceColor);

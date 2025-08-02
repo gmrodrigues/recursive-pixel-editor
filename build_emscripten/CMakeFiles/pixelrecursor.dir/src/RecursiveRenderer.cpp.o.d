@@ -224,6 +224,9 @@ CMakeFiles/pixelrecursor.dir/src/RecursiveRenderer.cpp.o: \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_version.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_locale.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_misc.h \
+  /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cmath \
+  /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constant_evaluated.h \
+  /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/special_functions.h \
   /home/glauber/arquivos/projetos/gamedev/recursive-pixel-editor/src/PixelEditor.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/vector \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__vector/comparison.h \
@@ -295,7 +298,6 @@ CMakeFiles/pixelrecursor.dir/src/RecursiveRenderer.cpp.o: \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__new/placement_new_delete.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/datasizeof.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h \
-  /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constant_evaluated.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_equality_comparable.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/element_count.h \
@@ -450,8 +452,6 @@ CMakeFiles/pixelrecursor.dir/src/RecursiveRenderer.cpp.o: \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/lazy.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/maybe_const.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/compare \
-  /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cmath \
-  /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__math/special_functions.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/utility \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/rel_ops.h \
   /home/glauber/arquivos/projetos/gamedev/le-simulateur-de-biochimie/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h \

@@ -39,7 +39,7 @@ public:
         // Initialize components
         editor = std::make_unique<PixelEditor>(8);
         palette = std::make_unique<Palette>();
-        recursiveRenderer = std::make_unique<RecursiveRenderer>(8, 64);
+        recursiveRenderer = std::make_unique<RecursiveRenderer>(8, 128);
         
         return true;
     }
@@ -86,8 +86,6 @@ public:
         // Render recursive output
         recursiveRenderer->render(renderer, *editor, *palette, RECURSIVE_X, RECURSIVE_Y);
         
-        // Render UI text (simple rectangles as placeholders)
-        renderUI();
         
         SDL_RenderPresent(renderer);
     }
@@ -115,23 +113,6 @@ public:
                 SDL_RenderDrawRect(renderer, &rect);
             }
         }
-    }
-    
-    void renderUI() {
-        // Draw labels as simple rectangles (in a real app, you'd use text rendering)
-        SDL_SetRenderDrawColor(renderer, 64, 64, 64, 255);
-        
-        // Editor label
-        SDL_Rect editorLabel = {EDITOR_X, EDITOR_Y - 25, 100, 20};
-        SDL_RenderFillRect(renderer, &editorLabel);
-        
-        // Palette label
-        SDL_Rect paletteLabel = {PALETTE_X, PALETTE_Y - 25, 80, 20};
-        SDL_RenderFillRect(renderer, &paletteLabel);
-        
-        // Recursive output label
-        SDL_Rect recursiveLabel = {RECURSIVE_X, RECURSIVE_Y - 25, 120, 20};
-        SDL_RenderFillRect(renderer, &recursiveLabel);
     }
     
     void update() {
