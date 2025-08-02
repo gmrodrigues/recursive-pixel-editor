@@ -2,24 +2,22 @@
 
 A recursive pixel art editor written in C++ with SDL2, compilable to WebAssembly using Emscripten.
 
-This is an educational example of a compiled C++ graphic application which runs in the browser (WebAssembly) or as a traditional native executable.
+This is an educational example of a compiled C++ graphics application which runs in the browser (WebAssembly) or as a traditional native executable.
 
-It demonstrates a rendering technique that is elegantly implemented in C++ with SDL2, but would be significantly more complex to reproduce in other environments such as JavaScript with HTML5 Canvas or WebGL.
+It demonstrates a rendering technique using a grid of 8x8 pixels, where each pixel in the final display becomes a miniature version of the full image — creating a recursive visual effect.
 
-In JavaScript, canvas drawing is immediate-mode and does not retain structural information about what was drawn. There are no persistent "pixel entities" that can be transformed recursively without manually maintaining the entire rendering state. In contrast, in C++/SDL2, it is trivial to maintain and reuse image state in memory — which makes recursive rendering like this straightforward.
+This kind of project could also be implemented effectively in JavaScript using the Canvas API. In both environments, you would typically manage the drawing state in an internal data structure and render to the screen on each frame. The choice of C++ and SDL2 here reflects a preference for low-level control and native code structure rather than a fundamental technical necessity.
 
 ## Demo
 
 https://gmrodrigues.github.io/rpixed/
 
-
 ## Screenshots
 
 ![Screenshot](./screenshots/2025-08-01_19-02.png)  
 ![Screenshot](./screenshots/2025-08-01_19-04.png)  
-![Screenshot](./screenshots/2025-08-01_19-06.png)
+![Screenshot](./screenshots/2025-08-01_19-06.png)  
 ![Screenshot](./screenshots/2025-08-01_19-10.png)
-
 
 ## Features
 
@@ -37,12 +35,9 @@ https://gmrodrigues.github.io/rpixed/
 
 ## More on WebAssembly
 
-In WebAssembly (WASM), your compiled C++ application runs inside a lightweight virtual machine embedded in the browser. Unlike JavaScript, which operates in a higher-level, event-driven runtime with limited low-level control, WebAssembly gives you direct access to a linear block of memory — essentially a flat address space — and a predictable execution model.
+In WebAssembly (WASM), your compiled C++ application runs inside a lightweight virtual machine embedded in the browser. WebAssembly provides a low-level, efficient binary format with access to a flat linear memory model, allowing structured control over your application state.
 
-This means your program can manage its own memory, structures, and state just like a native application. You can allocate buffers, use pointers, cache data, and represent your world in RAM however you choose. This is ideal for graphics applications like this one, where pixel data, palette state, and recursive rendering logic benefit from direct memory access and structure-oriented design.
-
-JavaScript, by contrast, doesn't expose this kind of memory model. Its canvas API is stateless — once you draw, the state is lost unless you track it yourself. This makes recursive or data-driven visual algorithms far more cumbersome to implement in JS than in a WASM-backed C++ application.
-
+Unlike JavaScript, where canvas drawing is immediate-mode and you must manage rendering state explicitly, in WebAssembly you can structure memory and logic in ways more similar to traditional native applications. However, for simple 2D editors like this one, both JavaScript and WebAssembly can achieve similar results — and JavaScript is often more accessible and convenient for quick development.
 
 ## Building
 
@@ -137,4 +132,5 @@ This project is open source. Feel free to modify and distribute.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
+
 # recursive-pixel-editor
