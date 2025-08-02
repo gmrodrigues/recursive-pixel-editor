@@ -2,9 +2,11 @@
 
 A recursive pixel art editor written in C++ with SDL2, compilable to WebAssembly using Emscripten.
 
-This is an educational example of a compiled C++ graphic application which runs in the browser (WebAssembly) or as a tradicional binary executable.
+This is an educational example of a compiled C++ graphic application which runs in the browser (WebAssembly) or as a traditional native executable.
 
-This project demostrates something that can be easily done with SDL2 and C++ and would take a lot of work to do it with other languages such as Js (HTML5 Canvas or WebGL or even with SDL2 and Js).
+It demonstrates a rendering technique that is elegantly implemented in C++ with SDL2, but would be significantly more complex to reproduce in other environments such as JavaScript with HTML5 Canvas or WebGL.
+
+In JavaScript, canvas drawing is immediate-mode and does not retain structural information about what was drawn. There are no persistent "pixel entities" that can be transformed recursively without manually maintaining the entire rendering state. In contrast, in C++/SDL2, it is trivial to maintain and reuse image state in memory — which makes recursive rendering like this straightforward.
 
 ## Demo
 
