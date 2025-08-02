@@ -35,6 +35,15 @@ https://gmrodrigues.github.io/rpixed/
 - **C Key**: Clear the entire canvas
 - **Mouse**: Navigate between the editor grid and color palette
 
+## More on WebAssembly
+
+In WebAssembly (WASM), your compiled C++ application runs inside a lightweight virtual machine embedded in the browser. Unlike JavaScript, which operates in a higher-level, event-driven runtime with limited low-level control, WebAssembly gives you direct access to a linear block of memory — essentially a flat address space — and a predictable execution model.
+
+This means your program can manage its own memory, structures, and state just like a native application. You can allocate buffers, use pointers, cache data, and represent your world in RAM however you choose. This is ideal for graphics applications like this one, where pixel data, palette state, and recursive rendering logic benefit from direct memory access and structure-oriented design.
+
+JavaScript, by contrast, doesn't expose this kind of memory model. Its canvas API is stateless — once you draw, the state is lost unless you track it yourself. This makes recursive or data-driven visual algorithms far more cumbersome to implement in JS than in a WASM-backed C++ application.
+
+
 ## Building
 
 ### Prerequisites
